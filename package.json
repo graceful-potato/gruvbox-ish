@@ -2,13 +2,13 @@
     "name": "gruvbox-ish",
     "publisher": "GracefulPotato",
     "repository": {
-		"type": "git",
-		"url": "https://github.com/graceful-potato/gruvbox-ish"
+        "type": "git",
+        "url": "https://github.com/graceful-potato/gruvbox-ish"
     },
     "homepage": "https://github.com/graceful-potato/gruvbox-ish",
     "displayName": "Gruvbox ish",
     "description": "Gruvbox theme supports ruby, c, css, html, js, ts, sh, py",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.41.0"
     },
