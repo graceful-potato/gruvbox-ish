@@ -1,0 +1,28 @@
+{
+    "name": "gruvbox-ish",
+    "displayName": "Gruvbox ish",
+    "description": "Gruvbox theme supports ruby, c, css, html, js, ts, sh, py",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruvbox ish",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruvbox-ish-dark-medium.json"
+            }
+        ],
+        "grammars": [
+            {
+              "scopeName": "source.ruby",
+              "path": "./syntaxes/ruby.tmLanguage.json",
+              "injectTo": [ "source.ruby" ]
+            }
+          ]
+    }
+}
