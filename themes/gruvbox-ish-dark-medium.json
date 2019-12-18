@@ -36,7 +36,6 @@
 		"editorCodeLens.foreground": "#a8998490",
 		"editorCursor.foreground": "#dfbf8e",
 		"editorError.foreground": "#d75f5f",
-		"editorGroup.emptyBackground": "#3c3836",
 		"editorGroup.border": "#3c3836",
 		"editorGroup.dropBackground": "#3c383660",
 		"editorGroupHeader.noTabsBackground": "#3c3836",
