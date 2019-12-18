@@ -2,7 +2,7 @@
     "name": "gruvbox-ish",
     "displayName": "Gruvbox ish",
     "description": "Gruvbox theme supports ruby, c, css, html, js, ts, sh, py",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -19,10 +19,12 @@
         ],
         "grammars": [
             {
-              "scopeName": "source.ruby",
-              "path": "./syntaxes/ruby.tmLanguage.json",
-              "injectTo": [ "source.ruby" ]
+                "scopeName": "source.ruby",
+                "path": "./syntaxes/ruby.tmLanguage.json",
+                "injectTo": [
+                    "source.ruby"
+                ]
             }
-          ]
+        ]
     }
 }
