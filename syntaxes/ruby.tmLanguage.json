@@ -1,5 +1,5 @@
 {
-	"version": "https://github.com/graceful-potato/ruby.tmbundle/commit/25449e84f4a052069946d170d6334e256ddf57bc",
+	"version": "https://github.com/graceful-potato/ruby.tmbundle/commit/dbb3a7532b2e6c91b072f03018c6e3db9f2abe39",
 	"name": "Ruby",
 	"scopeName": "source.ruby",
 	"comment": "\n\tTODO: unresolved issues\n\n\ttext:\n\t\"p <<end\n\tprint me!\n\tend\"\n\tsymptoms:\n\tnot recognized as a heredoc\n\tsolution:\n\tthere is no way to distinguish perfectly between the << operator and the start\n\tof a heredoc. Currently, we require assignment to recognize a heredoc. More\n\trefinement is possible.\n\t• Heredocs with indented terminators (<<-) are always distinguishable, however.\n\t• Nested heredocs are not really supportable at present\n\n\ttext:\n\tprint <<-'THERE' \n\tThis is single quoted. \n\tThe above used #{Time.now} \n\tTHERE \n\tsymtoms:\n\tFrom Programming Ruby p306; should be a non-interpolated heredoc.\n\t\n    text:\n    val?(a):p(b)\n    val?'a':'b'\n    symptoms:\n    ':p' is recognized as a symbol.. its 2 things ':' and 'p'.\n    :'b' has same problem.\n    solution:\n    ternary operator rule, precedence stuff, symbol rule.\n    but also consider 'a.b?(:c)' ??\n",
@@ -11,7 +11,7 @@
 					"name": "keyword.control.class.begin.ruby"
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.class.end.ruby"
@@ -90,7 +90,7 @@
 					"name": "keyword.control.module.begin.ruby"
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.module.end.ruby"
@@ -162,7 +162,7 @@
 					"name": "keyword.control.for.begin.ruby"
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.for.end.ruby"
@@ -215,7 +215,7 @@
 					]
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.do.end.ruby"
@@ -235,7 +235,7 @@
 					"name": "keyword.control.begin-block.begin.ruby"
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.begin-block.end.ruby"
@@ -255,7 +255,7 @@
 					"name": "keyword.control.case.begin.ruby"
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.case.end.ruby"
@@ -316,7 +316,7 @@
 					"name": "keyword.control.if-unless.begin.ruby"
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.if-unless.end.ruby"
@@ -340,7 +340,7 @@
 					"name": "keyword.control.while-until.begin.ruby"
 				}
 			},
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.while-until.end.ruby"
@@ -377,7 +377,7 @@
 		},
 		{
 			"comment": "everything being a reserved word, not a value and needing a 'end' is a..",
-			"match": "(?<!\\.)\\b(BEGIN|class|else|elsif|END|end|in|module|then|when)\\b(?![?!])",
+			"match": "(?<!\\.)\\b(BEGIN|else|elsif|END|end|in|then|when)\\b(?![?!])",
 			"name": "keyword.control.ruby"
 		},
 		{
@@ -526,7 +526,7 @@
 				}
 			},
 			"comment": "the method pattern comes from the symbol pattern, see there for a explaination",
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.def.end.ruby"
@@ -602,7 +602,7 @@
 				}
 			},
 			"comment": "same as the previous rule, but without parentheses around the arguments",
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.def.end.ruby"
@@ -612,7 +612,7 @@
 			"patterns": [
 				{
 					"begin": "(?![\\s,])",
-					"end": "(?=,|\\bend\\b|$)",
+					"end": "(?=,|(?<!\\.|::)\\bend\\b(?![?!])|$)",
 					"patterns": [
 						{
 							"captures": {
@@ -650,7 +650,7 @@
 				}
 			},
 			"comment": " the optional name is just to catch the def also without a method-name",
-			"end": "\\bend\\b",
+			"end": "(?<!\\.|::)\\bend\\b(?![?!])",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.control.def.end.ruby"

@@ -14,10 +14,10 @@ Supports ruby, c, css, html, js, ts, sh, py
 ### HTML
 ![html](https://user-images.githubusercontent.com/56965223/71054047-972bdd00-2161-11ea-9536-da3a1340097c.png)
 
-### JavaScript
+### TypeScript
 ![ts](https://user-images.githubusercontent.com/56965223/71054145-ec67ee80-2161-11ea-9dd1-c12c5b7c0bda.png)
 
-### TypeScript
+### JavaScript
 ![js](https://user-images.githubusercontent.com/56965223/71054066-9eeb8180-2161-11ea-8701-32daadffdfe4.png)
 
 ### Python
