@@ -1,5 +1,6 @@
 {
     "name": "gruvbox-ish",
+    "publisher": "GracefulPotato",
     "displayName": "Gruvbox ish",
     "description": "Gruvbox theme supports ruby, c, css, html, js, ts, sh, py",
     "version": "0.1.0",
