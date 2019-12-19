@@ -112,6 +112,8 @@
 		"merge.currentHeaderBackground": "#45858840",
 		"merge.incomingContentBackground": "#689d6a20",
 		"merge.incomingHeaderBackground": "#689d6a40",
+		"minimap.selectionHighlight": "#cea64a40",
+		"icon.foreground": "#87af87",
 		"panel.border": "#3c3836",
 		"panelTitle.activeForeground": "#dfbf8e",
 		"peekView.border": "#3c3836",
