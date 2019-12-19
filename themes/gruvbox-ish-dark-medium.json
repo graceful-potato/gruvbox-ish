@@ -277,6 +277,12 @@
 			}
 		},
 		{
+			"scope": "meta.embedded",
+			"settings": {
+				"foreground": "#dfbf8e"
+			}
+		},
+		{
 			"scope": "meta.preprocessor",
 			"settings": {
 				"foreground": "#e78a4e"
