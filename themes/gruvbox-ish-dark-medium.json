@@ -393,12 +393,6 @@
 			}
 		},
 		{
-			"scope": "keyword.control.module",
-			"settings": {
-				"foreground": "#87af87"
-			}
-		},
-		{
 			"scope": "keyword.control.less",
 			"settings": {
 				"foreground": "#d69617"
@@ -462,12 +456,13 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#dfbf8e"
+				"foreground": "#d3869b"
 			}
 		},
 		{
 			"scope": [
-				"entity.name.function"
+				"entity.name.function",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#98971a"
@@ -521,13 +516,22 @@
 			"name": "variables",
 			"scope": [
 				"meta.parameter.type.variable",
-				"variable.parameter",
 				"variable.name",
 				"variable",
 				"string.constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#dfbf8e"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.property",
+				"variable.other.property",
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#83a598"
 			}
 		},
 		{
@@ -938,6 +942,17 @@
 			],
 			"settings": {
 				"foreground": "#d69617"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.import.js",
+				"keyword.control.from.js",
+				"keyword.control.import.ts",
+				"keyword.control.from.ts"
+			],
+			"settings": {
+				"foreground": "#87af87"
 			}
 		},
 		{
