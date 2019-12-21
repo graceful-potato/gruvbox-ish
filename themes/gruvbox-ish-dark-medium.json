@@ -820,24 +820,17 @@
 			"scope": [
 				"source.css support.constant",
 				"source.css keyword.other.unit",
-				"source.css constant"
+				"source.css constant",
+				"constant.numeric.css"
 			],
 			"settings": {
 				"foreground": "#dfbf8e"
 			}
 		},
 		{
-			"scope": [
-				"constant.other.color.rgb-value.hex.css"
-			],
-			"settings": {
-				"foreground": "#d3869b"
-			}
-		},
-		{
 			"scope": "variable.parameter.url.css",
 			"settings": {
-				"foreground": "#8b9553",
+				"foreground": "#d3869b",
 				"fontStyle": "underline"
 			}
 		},
@@ -848,27 +841,75 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.keyword.css",
+			"scope": [
+				"punctuation.definition.keyword.css",
+				"meta.at-rule.include.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.mixin.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.function.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.use.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.forward.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.extend.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.use.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.at-root.scss punctuation.definition.keyword.scss",
+				"source.css keyword.control.at-rule",
+				"source.scss keyword.control.at-rule"
+			],
+			"settings": {
+				"foreground": "#87af87"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.interpolation.begin.bracket.curly.scss",
+				"punctuation.definition.interpolation.end.bracket.curly.scss"
+			],
+			"settings": {
+				"foreground": "#87af87"
+			}
+		},
+		{
+			"scope": [
+				"meta.at-rule.media.header.css keyword.control.at-rule.media.css",
+				"meta.at-rule.media.header.css punctuation.definition.keyword.css",
+				"meta.at-rule.supports.header.css keyword.control.at-rule.supports.css",
+				"meta.at-rule.supports.header.css punctuation.definition.keyword.css",
+				"meta.at-rule.document.header.css keyword.control.at-rule.document.css",
+				"meta.at-rule.document.header.css punctuation.definition.keyword.css",
+				"meta.at-rule.each.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.if.scss punctuation.definition.keyword.scss",
+				"meta.at-rule.else.scss punctuation.definition.keyword.scss"
+			],
 			"settings": {
 				"foreground": "#d75f5f"
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name.css",
+			"scope": "variable.scss",
 			"settings": {
-				"foreground": "#e78a4e"
+				"foreground": "#d3869b"
+			}
+		},
+		{
+			"scope": [
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#83a598"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.pseudo-class.css"
+			],
+			"settings": {
+				"foreground": "#d65d0e"
 			}
 		},
 		{
 			"scope": "source.css meta.selector",
 			"settings": {
 				"foreground": "#dfbf8e"
-			}
-		},
-		{
-			"scope": "support.type.property-name.css",
-			"settings": {
-				"foreground": "#87af87"
 			}
 		},
 		{
@@ -897,19 +938,11 @@
 		},
 		{
 			"scope": [
-				"source.css support.function"
-			],
-			"settings": {
-				"foreground": "#98971a"
-			}
-		},
-		{
-			"scope": [
 				"source.css string",
 				"source.css punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#dfbf8e"
+				"foreground": "#8b9553"
 			}
 		},
 		{
