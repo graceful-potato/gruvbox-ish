@@ -821,7 +821,9 @@
 				"source.css support.constant",
 				"source.css keyword.other.unit",
 				"source.css constant",
-				"constant.numeric.css"
+				"constant.numeric.css",
+				"source.sass keyword.control.unit",
+				"support.constant.property-value.css.sass"
 			],
 			"settings": {
 				"foreground": "#dfbf8e"
@@ -843,6 +845,7 @@
 		{
 			"scope": [
 				"punctuation.definition.keyword.css",
+				"meta.at-rule.import.scss punctuation.definition.keyword.scss",
 				"meta.at-rule.include.scss punctuation.definition.keyword.scss",
 				"meta.at-rule.mixin.scss punctuation.definition.keyword.scss",
 				"meta.at-rule.function.scss punctuation.definition.keyword.scss",
@@ -877,14 +880,20 @@
 				"meta.at-rule.document.header.css punctuation.definition.keyword.css",
 				"meta.at-rule.each.scss punctuation.definition.keyword.scss",
 				"meta.at-rule.if.scss punctuation.definition.keyword.scss",
-				"meta.at-rule.else.scss punctuation.definition.keyword.scss"
+				"meta.at-rule.else.scss punctuation.definition.keyword.scss",
+				"punctuation.definition.keyword.scss",
+				"keyword.control.at-rule.css.sass"
 			],
 			"settings": {
 				"foreground": "#d75f5f"
 			}
 		},
 		{
-			"scope": "variable.scss",
+			"scope": [
+				"variable.scss",
+				"source.sass variable.other",
+				"source.sass variable.other"
+			],
 			"settings": {
 				"foreground": "#d3869b"
 			}
@@ -913,7 +922,10 @@
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name.class",
+			"scope": [
+				"entity.other.attribute-name.class",
+				"entity.other.attribute-selector.sass"
+			],
 			"settings": {
 				"foreground": "#cea64a"
 			}
@@ -939,7 +951,8 @@
 		{
 			"scope": [
 				"source.css string",
-				"source.css punctuation.definition.string"
+				"source.css punctuation.definition.string",
+				"meta.attribute-selector.scss"
 			],
 			"settings": {
 				"foreground": "#8b9553"
@@ -957,7 +970,8 @@
 			"scope": [
 				"source.js variable.language",
 				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end"
+				"punctuation.definition.template-expression.end",
+				"support.function.interpolation.sass"
 			],
 			"settings": {
 				"foreground": "#87af87"
