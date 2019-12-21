@@ -8,7 +8,7 @@
     "homepage": "https://github.com/graceful-potato/gruvbox-ish",
     "displayName": "Gruvbox ish",
     "description": "Gruvbox theme supports ruby, c, css, html, js, ts, sh, py",
-    "version": "0.2.10",
+    "version": "0.2.11",
     "engines": {
         "vscode": "^1.41.0"
     },
