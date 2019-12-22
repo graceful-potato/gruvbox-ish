@@ -7,7 +7,7 @@
     },
     "homepage": "https://github.com/graceful-potato/gruvbox-ish",
     "displayName": "Gruvbox ish",
-    "description": "Gruvbox theme supports ruby, c, css, html, js, ts, sh, py",
+    "description": "Gruvbox-like theme.",
     "version": "0.2.12",
     "engines": {
         "vscode": "^1.41.0"
@@ -18,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Gruvbox ish",
+                "label": "Gruvbox ish Dark Medium",
                 "uiTheme": "vs-dark",
                 "path": "./themes/gruvbox-ish-dark-medium.json"
             }
