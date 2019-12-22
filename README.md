@@ -2,6 +2,15 @@
 It uses modified grammar file for ruby which can distinguish `end` keyword between `class`, `module`, `def`, `do`, `if`/`unless`, `while`/`until`, `for`, `begin`.
 Supports ruby, c, css, scss, sass, html, js, ts, sh, py.
 
+## Hard
+![hard](https://user-images.githubusercontent.com/56965223/71326892-0e6ec180-2512-11ea-9023-f9a38e7c4799.png)
+
+## Medium
+![medium](https://user-images.githubusercontent.com/56965223/71326893-1169b200-2512-11ea-89d7-c80b53f33515.png)
+
+## Soft
+![soft](https://user-images.githubusercontent.com/56965223/71326896-13cc0c00-2512-11ea-98a6-1ac165aafffb.png)
+
 ### Ruby
 ![rb](https://user-images.githubusercontent.com/56965223/71312307-486c9480-243a-11ea-8fce-b9b98e6120b7.png)
 
