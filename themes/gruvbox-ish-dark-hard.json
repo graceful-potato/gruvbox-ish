@@ -931,6 +931,15 @@
 			}
 		},
 		{
+			"scope": [
+				"storage.type.haskell",
+				"entity.other.inherited-class.haskell"
+			],
+			"settings": {
+				"foreground": "#d69617"
+			}
+		},
+		{
 			"scope": "source.haskell keyword.operator",
 			"settings": {
 				"foreground": "#e78a4e"
@@ -945,7 +954,7 @@
 		{
 			"scope": "constant.other.haskell",
 			"settings": {
-				"foreground": "#87af87"
+				"foreground": "#83a598"
 			}
 		},
 		{
