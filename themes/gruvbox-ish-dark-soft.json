@@ -405,7 +405,10 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.new",
+			"scope": [
+				"keyword.operator.new",
+				"keyword.operator.expression"
+			],
 			"settings": {
 				"foreground": "#d75f5f"
 			}
@@ -1005,7 +1008,9 @@
 				"keyword.control.import.js",
 				"keyword.control.from.js",
 				"keyword.control.import.ts",
-				"keyword.control.from.ts"
+				"keyword.control.from.ts",
+				"keyword.control.as.js",
+				"keyword.control.as.ts"
 			],
 			"settings": {
 				"foreground": "#87af87"
