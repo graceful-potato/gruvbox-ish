@@ -36,7 +36,7 @@ Supports ruby, c, css, scss, sass, html, js, ts, sh, py.
 ![js](https://user-images.githubusercontent.com/56965223/71312327-77830600-243a-11ea-914b-cd622a5a332e.png)
 
 ### Python
-![py](https://user-images.githubusercontent.com/56965223/71312361-dfd1e780-243a-11ea-81cc-786ecb041c6e.png)
+![py](https://user-images.githubusercontent.com/56965223/73128281-df021780-3fdd-11ea-9d39-ac38772d1140.png)
 
 ### Shell
 ![sh](https://user-images.githubusercontent.com/56965223/71312364-e3fe0500-243a-11ea-8a54-b1cff03cc9a9.png)
