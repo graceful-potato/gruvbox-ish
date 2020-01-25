@@ -591,20 +591,35 @@
 			}
 		},
 		{
+			"name": "C",
+			"scope": "punctuation.definition.directive.c",
+			"settings": {
+				"foreground": "#87af87"
+			}
+		},
+		{
 			"name": "Python function",
 			"scope": [
 				"meta.function.python",
 				"entity.name.function.python"
 			],
 			"settings": {
-				"foreground": "#87af87"
+				"foreground": "#98971a"
 			}
 		},
 		{
-			"name": "C",
-			"scope": "punctuation.definition.directive.c",
+			"scope": "entity.other.inherited-class.python",
 			"settings": {
-				"foreground": "#87af87"
+				"foreground": "#cea64a"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#d3869b"
 			}
 		},
 		{
@@ -615,36 +630,25 @@
 				"storage.type.class.python"
 			],
 			"settings": {
-				"foreground": "#d75f5f"
-			}
-		},
-		{
-			"name": "Python Function Call",
-			"scope": "meta.function-call.generic",
-			"settings": {
-				"foreground": "#83a598"
-			}
-		},
-		{
-			"name": "Python Function Arguments",
-			"scope": "meta.function-call.arguments",
-			"settings": {
-				"foreground": "#dfbf8e"
+				"foreground": "#87af87"
 			}
 		},
 		{
 			"name": "Python Function decorator",
-			"scope": "entity.name.function.decorator",
+			"scope": [
+				"meta.function.decorator.python support.type.python",
+				"entity.name.function.decorator",
+				"punctuation.definition.decorator.python"
+			],
 			"settings": {
-				"foreground": "#cea64a",
-				"fontStyle": "bold"
+				"foreground": "#cea64a"
 			}
 		},
 		{
 			"name": "Python ALL CAPS",
-			"scope": "constant.other.caps",
+			"scope": "constant.other.caps.python",
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#d69617"
 			}
 		},
 		{
