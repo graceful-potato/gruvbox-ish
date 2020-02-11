@@ -15,7 +15,7 @@
 		"button.hoverBackground": "#45858860",
 		"debugToolBar.background": "#1d2021",
 		"diffEditor.insertedTextBackground": "#8b955330",
-		"diffEditor.insertedTextBorder": "#98971a00",
+		"diffEditor.insertedTextBorder": "#a8a81c00",
 		"diffEditor.removedTextBackground": "#d75f5f30",
 		"diffEditor.removedTextBorder": "#d75f5f00",
 		"dropdown.background": "#1d2021",
@@ -86,7 +86,7 @@
 		"gitDecoration.deletedResourceForeground": "#d75f5f",
 		"gitDecoration.ignoredResourceForeground": "#7c6f64",
 		"gitDecoration.modifiedResourceForeground": "#d69617",
-		"gitDecoration.untrackedResourceForeground": "#98971a",
+		"gitDecoration.untrackedResourceForeground": "#a8a81c",
 		"input.background": "#dfbf8e05",
 		"input.border": "#282828",
 		"input.foreground": "#dfbf8e",
@@ -168,7 +168,7 @@
 		"terminal.ansiBrightWhite": "#dfbf8e",
 		"terminal.ansiBrightYellow": "#cea64a",
 		"terminal.ansiCyan": "#689d6a",
-		"terminal.ansiGreen": "#98971a",
+		"terminal.ansiGreen": "#a8a81c",
 		"terminal.ansiMagenta": "#b16286",
 		"terminal.ansiRed": "#d75f5f",
 		"terminal.ansiWhite": "#a89984",
@@ -468,7 +468,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#98971a"
+				"foreground": "#a8a81c"
 			}
 		},
 		{
@@ -604,7 +604,7 @@
 				"entity.name.function.python"
 			],
 			"settings": {
-				"foreground": "#98971a"
+				"foreground": "#a8a81c"
 			}
 		},
 		{
@@ -763,7 +763,7 @@
 		{
 			"scope": "markup.punctuation.quote.beginning",
 			"settings": {
-				"foreground": "#98971a"
+				"foreground": "#a8a81c"
 			}
 		},
 		{
@@ -1065,12 +1065,6 @@
 			],
 			"settings": {
 				"foreground": "#d69617"
-			}
-		},
-		{
-			"scope": "entity.name.function.ruby",
-			"settings": {
-				"fontStyle": "bold"
 			}
 		},
 		{

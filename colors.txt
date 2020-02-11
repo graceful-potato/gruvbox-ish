@@ -12,7 +12,7 @@ fg3 bdae93
 fg4 a89984
 red1 ba3d3d
 red2 d75f5f
-green1 98971a
+green1 a8a81c
 green2 8b9553
 yellow1 d69617 
 yellow2 cea64a
