@@ -1025,10 +1025,10 @@
 		{
 			"scope": [
 				"keyword.operator.logical.ruby",
-				"meta.syntax.begin-block.ruby keyword.control.rescue.ruby",
-				"meta.syntax.begin-block.ruby keyword.control.ensure.ruby",
-				"meta.syntax.do-block.ruby keyword.control.rescue.ruby",
-				"meta.syntax.do-block.ruby keyword.control.ensure.ruby"
+				"meta.block.begin.ruby keyword.control.rescue.ruby",
+				"meta.block.begin.ruby keyword.control.ensure.ruby",
+				"meta.block.do.ruby keyword.control.rescue.ruby",
+				"meta.block.do.ruby keyword.control.ensure.ruby"
 			],
 			"settings": {
 				"foreground": "#d75f5f"
