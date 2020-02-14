@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>version</key>
-	<string>https://raw.githubusercontent.com/graceful-potato/ruby.tmbundle/b9467419a3bb17baff915176a9cf66bafc90fffc/Syntaxes/Ruby.plist</string>
+	<string>https://github.com/textmate/ruby.tmbundle/blob/2aeab7b0acd9f26d87afceaccb1160c2bed894bc/Syntaxes/Ruby.plist</string>
 	<key>comment</key>
 	<string>
 	TODO: unresolved issues
@@ -118,10 +118,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.class.end.ruby</string>
@@ -230,10 +235,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.module.end.ruby</string>
@@ -343,10 +353,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.for.end.ruby</string>
@@ -423,10 +438,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.do.end.ruby</string>
@@ -454,10 +474,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.begin.end.ruby</string>
@@ -485,10 +510,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.conditional.case.end.ruby</string>
@@ -617,6 +647,7 @@
 			</dict>
 			<key>match</key>
 			<string>(?x)
+              (?=\s*if\b|\s*unless\b)
 							(?&lt;=[}\])\w?!"'`])
 							(?&lt;!\Wif|^if|														# \WX|^X is equivalent to \bX
 										 \Wunless|^unless|										# this is workaround for code editors which doesn't support onigomo
@@ -638,6 +669,7 @@
 		<dict>
 			<key>begin</key>
 			<string>(?x)
+              (?=\s*if\b)
 							(?&lt;!::)
 							(?&lt;=&lt;|&amp;|\||=|&gt;|~|\^|[+\-*/%]|\.{2}|\.{3}|^|;|:|\[|\(|\{|,|
 										 \Wif|^if|														# \WX|^X is equivalent to \bX
@@ -665,10 +697,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.conditional.if.end.ruby</string>
@@ -687,6 +724,7 @@
 		<dict>
 			<key>begin</key>
 			<string>(?x)
+              (?=\s*unless\b)
 							(?&lt;!::)
 							(?&lt;=&lt;|&amp;|\||=|&gt;|~|\^|[+\-*/%]|\.{2}|\.{3}|^|;|:|\[|\(|\{|,|
 										 \Wif|^if|														# \WX|^X is equivalent to \bX
@@ -714,10 +752,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.conditional.unless.end.ruby</string>
@@ -749,6 +792,7 @@
 			</dict>
 			<key>match</key>
 			<string>(?x)
+              (?=\s*while\b|\s*until\b)
 							(?&lt;=[}\])\w?!"'`])
 							(?&lt;!\Wif|^if|														# \WX|^X is equivalent to \bX
 										 \Wunless|^unless|										# this is workaround for code editors which doesn't support onigomo
@@ -770,6 +814,7 @@
 		<dict>
 			<key>begin</key>
 			<string>(?x)
+              (?=\s*while\b)
 							(?&lt;!::)
 							(?&lt;=&lt;|&amp;|\||=|&gt;|~|\^|[+\-*/%]|\.{2}|\.{3}|^|;|:|\[|\(|\{|,|
 										 \Wif|^if|														# \WX|^X is equivalent to \bX
@@ -797,10 +842,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.while.end.ruby</string>
@@ -840,6 +890,7 @@
 		<dict>
 			<key>begin</key>
 			<string>(?x)
+              (?=\s*until\b)
 							(?&lt;!::)
 							(?&lt;=&lt;|&amp;|\||=|&gt;|~|\^|[+\-*/%]|\.{2}|\.{3}|^|;|:|\[|\(|\{|,|
 										 \Wif|^if|														# \WX|^X is equivalent to \bX
@@ -867,10 +918,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.until.end.ruby</string>
@@ -925,13 +981,21 @@
 			<key>name</key>
 			<string>keyword.control.conditional.$1.ruby</string>
 		</dict>
-		<dict>
-			<key>comment</key>
-			<string>everything being a reserved word, not a value and needing a 'end' is a..</string>
+		<dict><key>comment</key>
+			<string>
+				All structures that are closed with keyword 'end' already defined higher.
+				This rule is made to match freestanding 'end'.
+			</string>
 			<key>match</key>
-			<string>(?&lt;!\.)\b(BEGIN|END|end)\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
 			<key>name</key>
-			<string>keyword.control.ruby</string>
+			<string>keyword.control.end.ruby</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;!\.)\b(BEGIN|END)\b(?![?!])</string>
+			<key>name</key>
+			<string>keyword.control.$1.ruby</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -1166,10 +1230,15 @@
 			<key>comment</key>
 			<string>the method pattern comes from the symbol pattern, see there for a explaination</string>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.def.end.ruby</string>
@@ -1291,10 +1360,15 @@
 			<key>comment</key>
 			<string>same as the previous rule, but without parentheses around the arguments</string>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.def.end.ruby</string>
@@ -1374,10 +1448,15 @@
 			<key>comment</key>
 			<string> the optional name is just to catch the def also without a method-name</string>
 			<key>end</key>
-			<string>(?&lt;!\.|::)\bend\b(?![?!])</string>
+			<string>(?&lt;!\.|::)\b((end))\b(?![?!])</string>
 			<key>endCaptures</key>
 			<dict>
-				<key>0</key>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.end.ruby</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.def.end.ruby</string>
