@@ -407,7 +407,8 @@
 		{
 			"scope": [
 				"keyword.operator.new",
-				"keyword.operator.expression"
+				"keyword.operator.expression",
+				"keyword.operator.logical"
 			],
 			"settings": {
 				"foreground": "#d75f5f"
@@ -450,7 +451,7 @@
 				"variable.class"
 			],
 			"settings": {
-				"foreground": "#cea64a"
+				"foreground": "#d69617"
 			}
 		},
 		{
@@ -502,7 +503,7 @@
 		{
 			"scope": "support.function.builtin",
 			"settings": {
-				"foreground": "#e78a4e"
+				"foreground": "#a8a81c"
 			}
 		},
 		{
@@ -552,7 +553,7 @@
 		{
 			"scope": "storage.type.class",
 			"settings": {
-				"foreground": "#d75f5f"
+				"foreground": "#87af87"
 			}
 		},
 		{
@@ -601,10 +602,17 @@
 			"name": "Python function",
 			"scope": [
 				"meta.function.python",
-				"entity.name.function.python"
+				"entity.name.function.python",
+				"meta.function-call.generic.python"
 			],
 			"settings": {
 				"foreground": "#a8a81c"
+			}
+		},
+		{
+			"scope": "source.python support.variable",
+			"settings": {
+				"foreground": "#83a598"
 			}
 		},
 		{
@@ -623,11 +631,10 @@
 			}
 		},
 		{
-			"name": "Python Function and Class definition keywords",
 			"scope": [
 				"storage.type.function.python",
 				"storage.modifier.declaration",
-				"storage.type.class.python"
+				"keyword.control.import.python"
 			],
 			"settings": {
 				"foreground": "#87af87"
@@ -1008,10 +1015,31 @@
 				"keyword.control.import.ts",
 				"keyword.control.from.ts",
 				"keyword.control.as.js",
-				"keyword.control.as.ts"
+				"keyword.control.as.ts",
+				"keyword.control.export.js",
+				"keyword.control.default.js",
+				"keyword.control.default.ts",
+				"keyword.control.export.ts",
+				"storage.modifier.ts",
+				"storage.modifier.js"
 			],
 			"settings": {
 				"foreground": "#87af87"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.inherited-class.js",
+				"entity.other.inherited-class.ts"
+			],
+			"settings": {
+				"foreground": "#cea64a"
+			}
+		},
+		{
+			"scope": "storage.type.class.jsdoc",
+			"settings": {
+				"foreground": "#d75f5f"
 			}
 		},
 		{
@@ -1024,7 +1052,6 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.logical.ruby",
 				"meta.block.begin.ruby keyword.control.rescue.ruby",
 				"meta.block.begin.ruby keyword.control.ensure.ruby",
 				"meta.block.do.ruby keyword.control.rescue.ruby",
