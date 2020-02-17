@@ -108,7 +108,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>\b(class)\b</string>
+			<string>(?&lt;!^\.|[^.]\.|::)\b(class)\b(?![?!])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -225,7 +225,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\b(module)\b</string>
+			<string>(?&lt;!^\.|[^.]\.|::)\b(module)\b(?![?!])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
