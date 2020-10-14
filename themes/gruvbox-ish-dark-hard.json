@@ -1103,6 +1103,14 @@
 		},
 		{
 			"scope": [
+				"meta.function-call.ruby entity.name.function.ruby"
+			],
+			"settings": {
+				"foreground": "#dfbf8e"
+			}
+		},
+		{
+			"scope": [
 				"variable.language.self.ruby",
 				"punctuation.definition.constant.ruby"
 			],
@@ -1113,7 +1121,7 @@
 		{
 			"scope": [
 				"punctuation.definition.variable.ruby",
-				"source.ruby variable.other"
+				"source.ruby variable.other.readwrite"
 			],
 			"settings": {
 				"foreground": "#83a598"

@@ -37,7 +37,7 @@
         "grammars": [
             {
                 "scopeName": "extended.ruby",
-                "path": "./syntaxes/Ruby.plist",
+                "path": "./syntaxes/ruby.cson.json",
                 "injectTo": [
                     "source.ruby"
                 ]
