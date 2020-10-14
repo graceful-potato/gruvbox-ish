@@ -785,7 +785,7 @@
 		{
 			"scope": "string.quoted.double.json",
 			"settings": {
-				"foreground": "#83a598"
+				"foreground": "#8b9553"
 			}
 		},
 		{
@@ -794,7 +794,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#8b9553"
+				"foreground": "#e78a4e"
 			}
 		},
 		{
@@ -803,7 +803,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#87af87"
+				"foreground": "#cea64a"
 			}
 		},
 		{
@@ -812,7 +812,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#d3869b"
+				"foreground": "#a8a81c"
 			}
 		},
 		{
@@ -821,7 +821,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#8b9553"
+				"foreground": "#83a598"
 			}
 		},
 		{
