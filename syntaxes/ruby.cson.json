@@ -362,17 +362,6 @@
 			]
 		},
 		{
-			"captures": {
-				"1": {
-					"name": "keyword.control.modifier.conditional.if.ruby"
-				},
-				"2": {
-					"name": "keyword.control.modifier.conditional.unless.ruby"
-				}
-			},
-			"match": "(?x)\n              (?=\\s*if\\b|\\s*unless\\b)\n\t\t\t\t\t\t\t(?<=[}\\])\\w?!\"'`])\n\t\t\t\t\t\t\t\\s*\\b(if)|(unless)\\b(?![?!])\n\t\t\t"
-		},
-		{
 			"begin": "(?<!^\\.|[^.]\\.|::)\\b(for)\\b(?![?!])",
 			"beginCaptures": {
 				"1": {
@@ -546,13 +535,13 @@
 		{
 			"captures": {
 				"1": {
-					"name": "keyword.control.modifier.while.ruby"
+					"name": "keyword.control.modifier.conditional.if.ruby"
 				},
 				"2": {
-					"name": "keyword.control.modifier.until.ruby"
+					"name": "keyword.control.modifier.conditional.unless.ruby"
 				}
 			},
-			"match": "(?x)\n              (?=\\s*while\\b|\\s*until\\b)\n\t\t\t\t\t\t\t(?<=[}\\])\\w?!\"'`])\n\t\t\t\t\t\t\t\\s*\\b(while)|(until)\\b(?![?!])\n\t\t\t"
+			"match": "(?x)\n              (?=\\s*if\\b|\\s*unless\\b)\n\t\t\t\t\t\t\t(?<=[}\\])\\w?!\"'`])\n\t\t\t\t\t\t\t\\s*\\b(if)|(unless)\\b(?![?!])\n\t\t\t"
 		},
 		{
 			"begin": "(?x)\n              (?=\\s*while\\b)\n\t\t\t\t\t\t\t(?<!::)\n\t\t\t\t\t\t\t(?<=<|&|\\||=|>|~|\\^|[+\\-*/%]|\\.{2}|\\.{3}|^|;|:|\\[|\\(|\\{|,|\n\t\t\t\t\t\t\t\t\t\t \\Wif|^if|\t\t\t\t\t\t\t\t\t\t\t\t\t\t# \\WX|^X is equivalent to \\bX\n\t\t\t\t\t\t\t\t\t\t \\Wunless|^unless|\t\t\t\t\t\t\t\t\t\t# this is workaround for code editors which doesn't support onigomo\n\t\t\t\t\t\t\t\t\t\t \\Wcase|^case|\t\t\t\t\t\t\t\t\t\t\t\t# https://github.com/microsoft/vscode-textmate/issues/121#issuecomment-565689295\n\t\t\t\t\t\t\t\t\t\t \\Wwhen|^when|\n\t\t\t\t\t\t\t\t\t\t \\Wwhile|^while|\n\t\t\t\t\t\t\t\t\t\t \\Wuntil|^until|\n\t\t\t\t\t\t\t\t\t\t \\Wfor|^for|\n\t\t\t\t\t\t\t\t\t\t \\Wbegin|^begin|\n\t\t\t\t\t\t\t\t\t\t \\Wand|^and|\n\t\t\t\t\t\t\t\t\t\t \\Wnot|^not|\n\t\t\t\t\t\t\t\t\t\t \\Wor|^or|\n\t\t\t\t\t\t\t\t\t\t \\Win|^in|\n\t\t\t\t\t\t\t\t\t\t \\W!|^!|\n\t\t\t\t\t\t\t\t\t\t \\W\\?|^\\?)\n\t\t\t\t\t\t\t\\s*\\b(while)\\b(?![?!:])\n\t\t\t",
@@ -627,6 +616,17 @@
 					"include": "$self"
 				}
 			]
+		},
+		{
+			"captures": {
+				"1": {
+					"name": "keyword.control.modifier.while.ruby"
+				},
+				"2": {
+					"name": "keyword.control.modifier.until.ruby"
+				}
+			},
+			"match": "(?x)\n              (?=\\s*while\\b|\\s*until\\b)\n\t\t\t\t\t\t\t(?<=[}\\])\\w?!\"'`])\n\t\t\t\t\t\t\t\\s*\\b(while)|(until)\\b(?![?!])\n\t\t\t"
 		},
 		{
 			"match": "(?<!\\.|::)\\brescue\\b(?![?!])",
@@ -2507,7 +2507,7 @@
 			]
 		},
 		{
-			"begin": "(?<={|{\\s|[^A-Za-z0-9_]do|^do|[^A-Za-z0-9_]do\\s|^do\\s)(\\|)",
+			"begin": "(?<={|{\\s|[^A-Za-z0-9_:@$]do|^do|[^A-Za-z0-9_:@$]do\\s|^do\\s)(\\|)",
 			"name": "meta.block.parameters.ruby",
 			"captures": {
 				"1": {
