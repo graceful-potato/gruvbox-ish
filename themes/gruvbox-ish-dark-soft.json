@@ -1135,6 +1135,48 @@
 			"settings": {
 				"foreground": "#87af87"
 			}
+		},
+		{
+			"scope": [
+					"comment.line.string.yard.ruby",
+					"comment.line.punctuation.yard.ruby"
+			],
+			"settings": {
+					"foreground": "#dfbf8ecc"
+			}
+		},
+		{
+			"scope": "comment.line.type.yard.ruby",
+			"settings": {
+					"foreground": "#d69617aa"
+			}
+		},
+		{
+			"scope": "comment.line.parameter.yard.ruby",
+			"settings": {
+					"foreground": "#dfbf8e"
+			}
+		},
+		{
+			"scope": "comment.line.hashkey.yard.ruby",
+			"settings": {
+					"foreground": "#d3869baa"
+			}
+		},
+		{
+			"scope": "comment.line.defaultvalue.yard.ruby",
+			"settings": {
+					"foreground": "#8b9553aa"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.keyword.yard.ruby",
+				"comment.line.keyword.punctuation.yard.ruby"
+			],
+			"settings": {
+					"foreground": "#d75f5f88"
+			}
 		}
 	]
 }
