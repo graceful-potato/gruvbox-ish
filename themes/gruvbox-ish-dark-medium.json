@@ -1121,6 +1121,7 @@
 		{
 			"scope": [
 				"punctuation.definition.variable.ruby",
+				"variable.other.block.ruby",
 				"source.ruby variable.other.readwrite"
 			],
 			"settings": {
