@@ -9,7 +9,7 @@
     "displayName": "Gruvbox ish",
     "description": "Gruvbox-like theme.",
     "icon": "images/icon.png",
-    "version": "0.5.8",
+    "version": "0.5.9",
     "engines": {
         "vscode": "^1.41.0"
     },
