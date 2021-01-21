@@ -448,7 +448,8 @@
 				"meta.type.annotation",
 				"support.type",
 				"storage.type.cs",
-				"variable.class"
+				"variable.class",
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#d69617"
@@ -532,6 +533,7 @@
 			"scope": [
 				"variable.other.object.property",
 				"variable.other.property",
+				"variable.other.readwrite.instance",
 				"meta.object-literal.key"
 			],
 			"settings": {

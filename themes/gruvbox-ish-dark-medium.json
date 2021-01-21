@@ -448,7 +448,8 @@
 				"meta.type.annotation",
 				"support.type",
 				"storage.type.cs",
-				"variable.class"
+				"variable.class",
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#d69617"
@@ -531,6 +532,7 @@
 		{
 			"scope": [
 				"variable.other.object.property",
+				"variable.other.readwrite.instance",
 				"variable.other.property",
 				"meta.object-literal.key"
 			],
@@ -1081,7 +1083,6 @@
 				"entity.name.type.class.ruby",
 				"entity.name.type.module.ruby",
 				"entity.other.inherited-class.ruby",
-				"variable.other.constant.ruby",
 				"support.class.ruby"
 			],
 			"settings": {
