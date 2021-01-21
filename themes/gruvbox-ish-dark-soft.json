@@ -559,12 +559,6 @@
 			}
 		},
 		{
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#dfbf8e"
-			}
-		},
-		{
 			"scope": "punctuation.quoted",
 			"settings": {
 				"foreground": "#dfbf8e"
