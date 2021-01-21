@@ -534,6 +534,7 @@
 				"variable.other.object.property",
 				"variable.other.property",
 				"variable.other.readwrite.instance",
+				"variable.other.readwrite.global",
 				"meta.object-literal.key"
 			],
 			"settings": {
@@ -1117,8 +1118,7 @@
 		{
 			"scope": [
 				"punctuation.definition.variable.ruby",
-				"variable.other.block.ruby",
-				"source.ruby variable.other.readwrite"
+				"variable.other.block.ruby"
 			],
 			"settings": {
 				"foreground": "#83a598"
