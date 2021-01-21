@@ -1172,6 +1172,20 @@
 			"settings": {
 					"foreground": "#d75f5f88"
 			}
+		},
+		{
+			"scope": [
+				"keyword.control.class.begin.rbs",
+				"keyword.control.class.end.rbs",
+				"keyword.control.module.begin.rbs",
+				"keyword.control.module.end.rbs",
+				"keyword.control.interface.begin.rbs",
+				"keyword.control.interface.end.rbs",
+				"keyword.control.def.rbs"
+			],
+			"settings": {
+				"foreground": "#87af87"
+			}
 		}
 	]
 }
