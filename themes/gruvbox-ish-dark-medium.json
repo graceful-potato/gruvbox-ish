@@ -215,7 +215,8 @@
 			"scope": [
 				"constant",
 				"support.constant",
-				"variable.arguments"
+				"variable.arguments",
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#d3869b"
@@ -626,8 +627,7 @@
 		},
 		{
 			"scope": [
-				"variable.parameter.function.language.special.self.python",
-				"variable.language.special.self.python"
+				"variable.parameter.function.language.special.self.python"
 			],
 			"settings": {
 				"foreground": "#d3869b"
@@ -988,19 +988,12 @@
 		},
 		{
 			"scope": [
-				"source.js variable.language",
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
 				"support.function.interpolation.sass"
 			],
 			"settings": {
 				"foreground": "#87af87"
-			}
-		},
-		{
-			"scope": "source.js variable.language",
-			"settings": {
-				"foreground": "#d3869b"
 			}
 		},
 		{
@@ -1113,7 +1106,6 @@
 		},
 		{
 			"scope": [
-				"variable.language.self.ruby",
 				"punctuation.definition.constant.ruby"
 			],
 			"settings": {
