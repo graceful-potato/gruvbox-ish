@@ -447,7 +447,7 @@
 				"meta.cast",
 				"meta.type.annotation",
 				"support.type",
-				"storage.type.cs",
+				"storage.type",
 				"variable.class",
 				"variable.other.constant"
 			],
