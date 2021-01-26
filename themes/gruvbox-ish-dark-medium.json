@@ -1179,7 +1179,8 @@
 				"keyword.declaration.module.begin.rbs",
 				"keyword.declaration.module.end.rbs",
 				"keyword.declaration.interface.begin.rbs",
-				"keyword.declaration.interface.end.rbs"
+				"keyword.declaration.interface.end.rbs",
+				"keyword.control.def.rbs"
 			],
 			"settings": {
 				"foreground": "#87af87"
