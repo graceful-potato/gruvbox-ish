@@ -448,6 +448,7 @@
 				"meta.cast",
 				"meta.type.annotation",
 				"support.type",
+				"support.class",
 				"storage.type",
 				"variable.class",
 				"variable.other.constant"
@@ -605,7 +606,6 @@
 		{
 			"name": "Python function",
 			"scope": [
-				"meta.function.python",
 				"entity.name.function.python",
 				"meta.function-call.generic.python"
 			],
@@ -998,14 +998,6 @@
 		},
 		{
 			"scope": [
-				"support.class.builtin.js"
-			],
-			"settings": {
-				"foreground": "#d69617"
-			}
-		},
-		{
-			"scope": [
 				"keyword.control.import.js",
 				"keyword.control.from.js",
 				"keyword.control.import.ts",
@@ -1030,6 +1022,24 @@
 			],
 			"settings": {
 				"foreground": "#cea64a"
+			}
+		},
+		{
+			"scope": [
+				"source.js storage.type",
+				"source.ts storage.type"
+			],
+			"settings": {
+				"foreground": "#d75f5f"
+			}
+		},
+		{
+			"scope": [
+				"source.js variable.other.constant",
+				"source.ts variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#dfbf8e"
 			}
 		},
 		{
