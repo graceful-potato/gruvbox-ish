@@ -536,6 +536,7 @@
 				"variable.other.object.property",
 				"variable.other.property",
 				"variable.other.readwrite.instance",
+				"variable.other.readwrite.class",
 				"variable.other.readwrite.global",
 				"meta.object-literal.key"
 			],

@@ -535,6 +535,7 @@
 			"scope": [
 				"variable.other.object.property",
 				"variable.other.readwrite.instance",
+				"variable.other.readwrite.class",
 				"variable.other.readwrite.global",
 				"variable.other.property",
 				"meta.object-literal.key"
