@@ -1045,6 +1045,24 @@
 			}
 		},
 		{
+			"scope": [
+				"source.js support.constant",
+				"source.ts support.constant"
+			],
+			"settings": {
+				"foreground": "#d69617"
+			}
+		},
+		{
+			"scope": [
+				"source.js variable.language",
+				"source.ts variable.language"
+			],
+			"settings": {
+				"foreground": "#cea64a"
+			}
+		},
+		{
 			"scope": "storage.type.class.jsdoc",
 			"settings": {
 				"foreground": "#d75f5f"
