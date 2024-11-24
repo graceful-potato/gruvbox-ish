@@ -36,11 +36,9 @@
         ],
         "grammars": [
             {
-                "scopeName": "extended.ruby",
-                "path": "./syntaxes/ruby.cson.json",
-                "injectTo": [
-                    "source.ruby"
-                ]
+                "language": "ruby",
+                "scopeName": "source.rubyext",
+                "path": "./syntaxes/ruby.cson.json"
             }
         ]
     }

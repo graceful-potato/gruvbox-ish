@@ -6,7 +6,7 @@
 	],
 	"version": "https://github.com/atom/language-ruby/commit/f4082a02f467f8b253449d6998226fdea0957efa",
 	"name": "Ruby",
-	"scopeName": "source.ruby",
+	"scopeName": "source.rubyext",
 	"fileTypes": [
 		"Appfile",
 		"Appraisals",
@@ -2415,7 +2415,7 @@
 							"name": "punctuation.definition.string.begin.ruby"
 						}
 					},
-					"contentName": "source.ruby",
+					"contentName": "source.rubyext",
 					"end": "^\\s*\\2$\\n?",
 					"endCaptures": {
 						"0": {
@@ -2431,7 +2431,7 @@
 							"include": "#interpolated_ruby"
 						},
 						{
-							"include": "source.ruby"
+							"include": "source.rubyext"
 						},
 						{
 							"include": "#escaped_char"
@@ -2513,7 +2513,7 @@
 				"7": {
 					"patterns": [
 						{
-							"include": "source.ruby"
+							"include": "source.rubyext"
 						}
 					]
 				}
@@ -2870,7 +2870,7 @@
 							"name": "punctuation.section.embedded.begin.ruby"
 						}
 					},
-					"contentName": "source.ruby",
+					"contentName": "source.rubyext",
 					"end": "}",
 					"endCaptures": {
 						"0": {
