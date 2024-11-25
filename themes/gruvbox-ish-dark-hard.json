@@ -247,7 +247,8 @@
 					"constant.character",
 					"constant.escape",
 					"text.html.markdown",
-					"entity.name.function.call.kotlin"
+					"entity.name.function.call.kotlin",
+					"entity.name.type.package.go"
 				],
 				"settings": {
 					"foreground": "#dfbf8e"
@@ -396,7 +397,8 @@
 					"keyword.hard.fun.kotlin",
 					"keyword.hard.class.kotlin",
 					"keyword.package",
-					"keyword.import"
+					"keyword.import",
+					"keyword.control.import"
 				],
 				"settings": {
 					"foreground": "#87af87"
@@ -492,7 +494,7 @@
 					"entity.name.type.module.ruby",
 					"entity.other.inherited-class.ruby",
 					"support.class.ruby",
-					"keyword.type"
+					"source.cs keyword.type"
 				],
 				"settings": {
 					"foreground": "#d69617"
