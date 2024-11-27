@@ -16,7 +16,21 @@
     "categories": [
         "Themes"
     ],
+    "main": "./out/extension.js",
+    "activationEvents": [
+        "onLanguage:ruby"
+    ],
     "contributes": {
+        "configuration": {
+            "type": "object",
+            "properties": {
+                "gruvbox-ish.recommendRubyGrammar": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Recommend installing Better Ruby Highlighting."
+                }
+            }
+        },
         "themes": [
             {
                 "label": "Gruvbox ish Dark Soft",
@@ -33,13 +47,11 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/gruvbox-ish-dark-hard.json"
             }
-        ],
-        "grammars": [
-            {
-                "language": "ruby",
-                "scopeName": "source.rubyext",
-                "path": "./syntaxes/ruby.cson.json"
-            }
         ]
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.0",
+        "@types/vscode": "^1.95.0",
+        "typescript": "^5.7.2"
     }
 }

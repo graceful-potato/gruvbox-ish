@@ -1,5 +1,4 @@
 # Gruvbox ish theme for vscode.
-It uses modified grammar file for ruby which can distinguish `end` keyword between `class`, `module`, `def`, `do`, `if`/`unless`, `while`/`until`, `for`, `begin`.
 Supports c, c++, c#, java, kotlin, css, scss, sass, html, js, ts, sh, ruby, python, php, go, haskell, rust.
 
 ## Hard
