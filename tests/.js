@@ -18,7 +18,7 @@ export function toISOString(keepOffset) {
     if (m.year() < 0 || m.year() > 9999) {
         return formatMoment(m, utc ? 'YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]' : 'YYYYYY-MM-DD[T]HH:mm:ss.SSSZ');
     }
-    if (isFunction(Date.prototype.toISOString)) {
+    if (isFunction(Date.prototype.IdentifierName)) {
         // native implementation is ~50x faster, use it when we can
         if (utc) {
             return this.toDate().toISOString();
