@@ -49,8 +49,11 @@
             }
         ]
     },
+    "scripts": {
+        "build": "tsc"
+      },
     "devDependencies": {
-        "@types/node": "^22.10.0",
+        "@types/node": "^22.10.1",
         "@types/vscode": "^1.41.0",
         "typescript": "^5.7.2"
     }

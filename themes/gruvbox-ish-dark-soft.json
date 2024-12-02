@@ -334,7 +334,11 @@
 				"storage.type.template",
 				"storage.type.modifier.access",
 				"meta.export.js keyword.control.from.js",
-				"meta.export.ts keyword.control.from.ts"
+				"meta.export.ts keyword.control.from.ts",
+				"storage.type.namespace",
+				"storage.type.struct",
+				"storage.type.enum",
+				"storage.type.extern"
 			],
 			"settings": {
 				"foreground": "#d75f5f"
