@@ -235,6 +235,8 @@
 				"constant.language.empty-list.haskell",
 				"source.js variable.other.constant",
 				"source.ts variable.other.constant",
+				"source.tsx variable.other.constant",
+				"source.js.jsx variable.other.constant",
 				"keyword.operator.ruby",
 				"keyword.operator.assignment.ruby",
 				"keyword.operator.comparison.ruby",
@@ -272,8 +274,12 @@
 				"entity.other.attribute-selector.sass",
 				"entity.other.inherited-class.js",
 				"entity.other.inherited-class.ts",
+				"entity.other.inherited-class.js.jsx",
+				"entity.other.inherited-class.tsx",
 				"source.js variable.language",
-				"source.ts variable.language"
+				"source.ts variable.language",
+				"source.js.jsx variable.language",
+				"source.tsx variable.language"
 			],
 			"settings": {
 				"foreground": "#cea64a"
@@ -323,6 +329,8 @@
 				"keyword.control.at-rule.css.sass",
 				"source.js storage.type",
 				"source.ts storage.type",
+				"source.js.jsx storage.type",
+				"source.tsx storage.type",
 				"storage.type.class.jsdoc",
 				"meta.block.begin.ruby > keyword.control.rescue.ruby",
 				"meta.block.begin.ruby > keyword.control.ensure.ruby",
@@ -335,6 +343,8 @@
 				"storage.type.modifier.access",
 				"meta.export.js keyword.control.from.js",
 				"meta.export.ts keyword.control.from.ts",
+				"meta.export.js.jsx keyword.control.from.js.jsx",
+				"meta.export.tsx keyword.control.from.tsx",
 				"storage.type.namespace",
 				"storage.type.struct",
 				"storage.type.enum",
@@ -381,11 +391,18 @@
 				"support.function.interpolation.sass",
 				"keyword.control.import.js",
 				"keyword.control.from.js",
+				"keyword.control.import.js.jsx",
+				"keyword.control.from.js.jsx",
 				"keyword.control.import.ts",
 				"keyword.control.from.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.from.tsx",
 				"storage.type.interface.ts",
+				"storage.type.interface.tsx",
 				"keyword.control.as.js",
+				"keyword.control.as.js.jsx",
 				"meta.import.ts keyword.control.as.ts",
+				"meta.import.tsx keyword.control.as.tsx",
 				"keyword.control.class.begin.ruby",
 				"keyword.control.class.end.ruby",
 				"keyword.control.module.begin.ruby",
@@ -409,7 +426,9 @@
 				"keyword.control.import",
 				"keyword.other.fn.rust",
 				"meta.import.ts keyword.control.default.ts",
-				"meta.import.js keyword.control.default.js"
+				"meta.import.js keyword.control.default.js",
+				"meta.import.tsx keyword.control.default.tsx",
+				"meta.import.js.jsx keyword.control.default.js.jsx"
 			],
 			"settings": {
 				"foreground": "#87af87"
@@ -463,7 +482,9 @@
 				"punctuation.definition.annotation",
 				"punctuation.decorator",
 				"meta.decorator.ts entity.name.function.ts",
-				"meta.decorator.ts variable.other.readwrite.ts"
+				"meta.decorator.ts variable.other.readwrite.ts",
+				"meta.decorator.tsx entity.name.function.tsx",
+				"meta.decorator.tsx variable.other.readwrite.tsx"
 			],
 			"settings": {
 				"foreground": "#83a598"
@@ -502,6 +523,8 @@
 				"entity.other.inherited-class.haskell",
 				"source.js support.constant",
 				"source.ts support.constant",
+				"source.js.jsx support.constant",
+				"source.tsx support.constant",
 				"entity.name.type.module.ruby",
 				"entity.other.inherited-class",
 				"source.cs keyword.type",
